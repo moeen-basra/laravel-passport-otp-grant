@@ -1,0 +1,35 @@
+{
+  "name": "moeen-basra/laravel-passport-otp-grant",
+  "description": "Laravel Passport One Time Pin Grant",
+  "keywords": [
+    "Laravel",
+    "Passport",
+    "OTP",
+    "One Time PIN",
+    "One Time Password",
+    "Passport OTP Grant"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Moeen Basra",
+      "email": "m.basra@live.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MoeenBasra\\OneTimePinGrant\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MoeenBasra\\OneTimePinGrant\\OneTimePinGrantServiceProvider"
+      ]
+    }
+  }
+}
