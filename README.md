@@ -1,4 +1,4 @@
-#Laravel Passport OTP Grant
+# Laravel Passport OTP Grant
 
 This is a small package for laravel passport otp authentication easy to integrate.
 
@@ -61,13 +61,12 @@ curl --location --request POST 'https://api.example.com/oauth/token' \
 --form 'scope="*"'
 ```
 
-##More
+## More
 You can check out the [Laravel Passport](https://laravel.com/docs/master/passport) official documentation for more details.
 
-##Contributions
+## Contributions
 You are welcome, you can create a [pull request](https://github.com/qiutuleng/vue-router-modern/pulls).
 You will be credited for any contribution.
 
-##Issues
+## Issues
 If you are facing any problem feel free to report [here](https://github.com/qiutuleng/vue-router-modern/issues).
-
