@@ -39,7 +39,7 @@ class User extends BaseUser implements OneTimePinGrantUserInterface
 }
 ```
 
-1. This step is optional, add the service provider under the providers array in `confing/app.php`.
+3. This step is optional, add the service provider under the providers array in `confing/app.php`.
 ```php
    'providers' => [
         //...
