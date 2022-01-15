@@ -38,7 +38,7 @@ class UserRepository implements UserRepositoryInterface
         }
 
         $user = (new $model)
-            ->validateForPassportOtpGrant($username, $password);
+            ->findAndValidateForPassportOtpGrant($username, $password);
 
         if ($user) {
             return new User($user->getAuthIdentifier());

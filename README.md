@@ -26,7 +26,7 @@ class User extends BaseUser implements OneTimePinGrantUserInterface
     /**
      * {@inheritDoc}
      */
-    public function validateForPassportOtpGrant(string $mobile_number, string $code)
+    public function findAndValidateForPassportOtpGrant(string $mobile_number, string $code)
     {
         if (!OneTimePin::validate($mobile_number, $code)) {
             return null;

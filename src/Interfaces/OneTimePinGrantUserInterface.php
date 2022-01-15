@@ -14,5 +14,5 @@ interface OneTimePinGrantUserInterface
      *
      * @return null|UserEntityInterface
      */
-    public function validateForPassportOtpGrant(string $mobile_number, string $code);
+    public function findAndValidateForPassportOtpGrant(string $mobile_number, string $code);
 }
